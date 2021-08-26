@@ -573,7 +573,7 @@ input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
   border: none;
-  color: #000000;
+  color: #ffffff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -o-border-radius: 3px;
@@ -856,7 +856,7 @@ body.home .page-inner-title {
   display: block;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   padding: 17px 18px;
   position: relative;
 }
@@ -965,14 +965,18 @@ body.home .page-inner-title {
   }
   .main-navigation li {
     float: none;
-    display: block;
-    border-top: 1px solid #565656;
+    border-bottom: 1px solid #1F7C4D;
+    /* border-top: 1px solid #1F7C4D;
+    border-left: 1px solid #1F7C4D;
+    border-right: 1px solid #1F7C4D; */
+    /* display: block; */
+    /* border-top: 1px solid #565656; */
   }
   .main-navigation{
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
   }
   .main-navigation.toggled .nav-menu {
-    background: none repeat scroll 0 0 #333333;
+    background: none repeat scroll 0 0 #ffffff;
   }
   .main-navigation ul ul:before {
     border-left: 10px solid rgba(0, 0, 0, 0);
@@ -1438,7 +1442,7 @@ body.home .page-inner-title {
 @media screen and (max-width: 767px) {
   .nav-links .nav-previous a,
   .nav-links .nav-next a {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     display: block;
   }
